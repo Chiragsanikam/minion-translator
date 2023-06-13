@@ -35,8 +35,8 @@ btnTranslate.addEventListener("click", clicked);
 
 //code for executing the code when you press enter
 
-document.addEventListener("keydown", function(event){
-    if(event.key === "Enter"){
+document.addEventListener("keydown", function(e){
+    if(e.key === "Enter"){
         clicked()
     }
 });

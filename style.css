@@ -1,0 +1,43 @@
+.textArea{
+    display: block;
+    margin: 0.5rem;
+    transition: border 0.5s linear;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+.button{
+    margin: 0.5rem;
+    background-color: bisque;
+    border: solid black 0.5px;
+    cursor: pointer;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: 0.2s ease;
+}
+.heading{
+    margin: 0.2em;
+}
+
+.textArea:hover{
+    border: 1.3px solid blueviolet;
+   
+}
+.button:hover{
+height: 35px;
+width: 85px;
+border-radius: 8px;
+
+}
+
+#output{
+    margin: 0.5rem;
+    display: block;
+    border-radius: 5px;
+    height: 150px;
+    width: 240px;
+    border: 1px solid black;
+    padding: 10px;
+}

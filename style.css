@@ -16,9 +16,11 @@
     border-radius: 5px;
     font-weight: 500;
     transition: 0.1s ease;
+    
 }
 .heading{
     margin: 0.2em;
+    text-align: center;
 }
 
 .textArea:hover{

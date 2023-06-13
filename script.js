@@ -4,6 +4,7 @@ let outputDiv =document.querySelector("#output")
 let serverURL = "https://api.funtranslations.com/translate/minion.json"
 
 
+
 function getTranslationURL(text){
     return serverURL + "?" + "text=" + text;
 }
@@ -30,5 +31,14 @@ function clicked(){
 
 btnTranslate.addEventListener("click", clicked);
 
+
+
+//code for executing the code when you press enter
+
+document.addEventListener("keydown", function(event){
+    if(event.key === "Enter"){
+        clicked()
+    }
+});
 
 

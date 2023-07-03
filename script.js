@@ -10,8 +10,8 @@ function getTranslationURL(text){
 }
 
 function errorHandler(error){
-    console.log("error occured", error);
-    alert("something wrong with server, try again later")
+   
+    alert("something wrong with server, try again later", error)
 }
 
 
